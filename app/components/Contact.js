@@ -60,7 +60,7 @@ const Contact = ({ light }) => {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.7 }}
-                    className='font-Ovo max-w-xl text-center'>I'd love to hear from you! If you have any questions, comments or
+                    className='font-Ovo max-w-xl text-center'>I&apos;d love to hear from you! If you have any questions, comments or
                     feedback, please use the form below.</motion.p>
             </div>
 
