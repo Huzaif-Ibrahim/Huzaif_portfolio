@@ -30,14 +30,14 @@ const Header = ({ light }) => {
             initial={{ y: -30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className='font-Ovo text-center text-3xl sm:text-6xl lg:text-[66px]'>Fullstack web developer <br /> based in India.</motion.h1>
+            className='font-Ovo mt-2 text-center text-3xl sm:text-6xl lg:text-[66px]'>Fullstack web developer <br /> based in India.</motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.7 }}
-            className='font-Ovo px-4 lg:px-0 max-w-2xl mx-auto text-center'>I am a fullstack developer from Karnataka, India with hands-on experience building and deploying fullstack projects.</motion.p>
+            className='font-Ovo mt-2 px-4 lg:px-0 max-w-2xl mx-auto text-center'>I am a fullstack developer from Karnataka, India with hands-on experience building and deploying fullstack projects.</motion.p>
 
-          <div className='flex items-center justify-center gap-2 lg:gap-4 mt-4'>
+          <div className='flex items-center justify-center gap-2 lg:gap-4 mt-6'>
             <motion.a
               initial={{ y: 30, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
