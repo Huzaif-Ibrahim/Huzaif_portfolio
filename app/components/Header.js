@@ -42,12 +42,12 @@ const Header = ({ light }) => {
               initial={{ y: 30, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6, delay: 1 }}
-              href='#contact' className={`group cursor-pointer flex items-center gap-2 rounded-full px-6 py-3 transition-all duration-700  border border-zinc-300 ${light ? "bg-black text-white" : " hover:bg-[#2a004a]/50"}`}><p className=''>connect with me</p> <Image alt='' src={assets.right_arrow_white} className='w-4 ml-0 group-hover:ml-3 transition-all duration-500' /></motion.a>
+              href='#contact' className={`group cursor-pointer flex items-center gap-2 rounded-full px-3 py-1 lg:px-6 lg:py-3 transition-all duration-700  border border-zinc-300 ${light ? "bg-black text-white" : " hover:bg-[#2a004a]/50"}`}><p className=''>connect with me</p> <Image alt='' src={assets.right_arrow_white} className='w-4 ml-0 group-hover:ml-3 transition-all duration-500' /></motion.a>
             <motion.a
               initial={{ y: 30, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6, delay: 1.2 }}
-              href='/sample-resume.pdf' download className={`cursor-pointer flex items-center gap-2 rounded-full px-6 py-3 transition-all duration-700 border border-zinc-400 bg-white text-black`}><p className=''>my resume</p> <Image alt='' src={assets.download_icon} className='w-4' /></motion.a>
+              href='/sample-resume.pdf' download className={`cursor-pointer flex items-center gap-2 rounded-full px-3 py-1 lg:px-6 lg:py-3 transition-all duration-700 border border-zinc-400 bg-white text-black`}><p className=''>my resume</p> <Image alt='' src={assets.download_icon} className='w-4' /></motion.a>
           </div>
         </div>
       </motion.div>

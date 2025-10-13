@@ -75,8 +75,8 @@ const About = ({ light }) => {
               toolsData.map((item, indx) => {
                 return <motion.li
                 whileHover={{scale: 1.1}}
-                key={indx} className='p-4 border border-gray-400 rounded-xl hover:-translate-y-1 transition-all duration-500'>
-                  <Image alt='' src={item} className='w-5 lg:w-7' />
+                key={indx} className='p-2 lg:p-4 border border-gray-400 rounded-xl hover:-translate-y-1 transition-all duration-500'>
+                  <Image alt='' src={item} className='w-7' />
                 </motion.li>
               })
             }
