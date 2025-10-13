@@ -23,7 +23,7 @@ const Header = ({ light }) => {
               initial={{ y: -20, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className='font-Ovo flex items-center justify-center gap-2 text-xl lg:text-2xl'>Hi! I&apos;m Huzaif Ibrahim<Image alt='' src={assets.hand_icon} className='' width={20} /></motion.h3>
+              className='font-Ovo flex items-center justify-center gap-2 text-xl lg:text-2xl'>Hi! I am Huzaif Ibrahim<Image alt='' src={assets.hand_icon} className='' width={20} /></motion.h3>
           </div>
 
           <motion.h1
