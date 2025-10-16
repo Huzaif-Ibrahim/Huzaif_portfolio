@@ -59,13 +59,15 @@ const LatestWork = ({ light }) => {
             </motion.ul>
 
             <div className='flex justify-center mt-8 lg:mt-12'>
-                <motion.button
+                <motion.a
+                href='https://github.com/huzaif-ibrahim'
+                target='_blank'
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1.1, delay: 0.5 }}
                 className={`group cursor-pointer ${light ? 'hover:bg-gray-300' : 'hover:bg-[#2a004a]/50'} transition-all duration-500 flex items-center justify-center border border-gray-400 rounded-full px-4 py-2`}>
                     Show more <Image alt='' src={assets.right_arrow} className='ml-2 group-hover:ml-6 transition-all duration-500 w-4' />
-                </motion.button>
+                </motion.a>
             </div>
         </motion.div>
     )
