@@ -1,5 +1,5 @@
 "use client"
-
+import { Analytics } from "@vercel/analytics/next"
 import { useState } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -17,6 +17,7 @@ export default function Home() {
 
   return (
     <>
+    <Analytics />
     <ToastContainer />
       <div className={`transition-all duration-700 ${light ? 'bg-white text-gray-700' : "bg-[#11001f] text-white"}`}>
       <Navbar light={light} setLight={setLight} />
