@@ -15,7 +15,7 @@ const Footer = ({light}) => {
 
 
             <div className='w-full border-t border-gray-400 py-4 flex flex-col lg:flex-row justify-between items-center'>
-                <p>© 2025 William Mark. All rights reserved.</p>
+                <p>© 2025 Huzaif Ibrahim. All rights reserved.</p>
                 <div className='flex flex-col lg:flex-row items-center justify-center gap-4'>
                     <a className='' href='https://github.com/huzaif-ibrahim' target='_blank'>Github</a>
                     <a className='' href='https://instagram.com/huz4if_ibrahim' target='_blank'>Instagram</a>
