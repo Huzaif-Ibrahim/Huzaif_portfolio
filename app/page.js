@@ -17,16 +17,29 @@ export default function Home() {
 
   return (
     <>
-    <Analytics />
-    <ToastContainer />
+      <Analytics />
+      <ToastContainer
+        position="top-center"
+        autoClose={1500}
+        hideProgressBar
+        newestOnTop
+        closeOnClick
+        pauseOnFocusLoss={false}
+        pauseOnHover={false}
+        draggable={false}
+        theme="light"
+        toastClassName={() =>
+          "bg-white shadow-md flex items-center rounded-md text-gray-800 text-sm px-3 py-2 mt-2"
+        }
+      />
       <div className={`transition-all duration-700 ${light ? 'bg-white text-gray-700' : "bg-[#11001f] text-white"}`}>
-      <Navbar light={light} setLight={setLight} />
-      <Header light={light}/>
-      <About light={light}/>
-      <Services light={light} />
-      <LatestWork light={light} />
-      <Contact light={light} />
-      <Footer light={light} />
+        <Navbar light={light} setLight={setLight} />
+        <Header light={light} />
+        <About light={light} />
+        <Services light={light} />
+        <LatestWork light={light} />
+        <Contact light={light} />
+        <Footer light={light} />
       </div>
     </>
   );

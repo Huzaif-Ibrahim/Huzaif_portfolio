@@ -94,30 +94,70 @@ export const workData = [
         link: 'https://quick-blog-client-orpin.vercel.app'
     },
     {
-        title: 'Product landing page',
-        description: 'Web Design',
+        title: 'Doctor Online Appointment Booking Website',
+        description: 'Web Development',
         bgImage: work3,
-        link: 'https://saaslanding-page-omega.vercel.app/'
+        link: 'https://medi-q-frontend-theta.vercel.app/'
     },
     {
-        title: 'Landing page for gamers',
+        title: 'Landing page for Agency',
         description: 'Web Design',
         bgImage: work4,
-        link: 'https://streamerzz-gray.vercel.app'
+        link: 'https://think-media.vercel.app/'
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: 'https://en.wikipedia.org/wiki/Web_design' },
-    { icon: assets.mobile_icon, title: 'E-Commerce Solutions', description: 'Develop secure online stores with payments, product management, and admin panels.', link: 'https://en.wikipedia.org/wiki/E-commerce' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: 'https://www.innovation.wiki/en/method/ux-ui-design/' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: 'https://en.wikipedia.org/wiki/Graphic_design' },
-]
+    {
+        icon: assets.web_icon,
+        title: 'Web Development',
+        description:
+            'Building responsive, performant websites and web applications using modern technologies and best practices.',
+        link: 'https://en.wikipedia.org/wiki/Web_development',
+    },
+    {
+        icon: assets.web_icon,
+        title: 'Backend Development',
+        description:
+            'Creating scalable backend systems, APIs, authentication, and database architectures.',
+        link: 'https://en.wikipedia.org/wiki/Backend_(computing)',
+    },
+    {
+        icon: assets.mobile_icon,
+        title: 'E-Commerce Solutions',
+        description:
+            'Developing secure e-commerce platforms with payments, product management, and admin dashboards.',
+        link: 'https://en.wikipedia.org/wiki/E-commerce',
+    },
+    {
+        icon: assets.ui_icon,
+        title: 'UI/UX Design',
+        description:
+            'Designing clean, user-friendly interfaces focused on usability, accessibility, and smooth user experience.',
+        link: 'https://en.wikipedia.org/wiki/User_experience_design',
+    }
+];
+
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Self-Taught Web Developer' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    {
+        icon: assets.code_icon,
+        iconDark: assets.code_icon_dark,
+        title: 'Tech Stack',
+        description: 'JavaScript, Node.js, Express.js, React, Next.js, MongoDB',
+    },
+    {
+        icon: assets.edu_icon,
+        iconDark: assets.edu_icon_dark,
+        title: 'Education',
+        description: 'Self-taught web developer with strong backend focus',
+    },
+    {
+        icon: assets.project_icon,
+        iconDark: assets.project_icon_dark,
+        title: 'Projects',
+        description: 'Built 5+ full-stack and backend-focused projects',
+    },
 ];
 
 export const toolsData = [
