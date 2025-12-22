@@ -139,7 +139,7 @@ export const serviceData = [
 ];
 
 
-export const infoList = [
+export const infoList = [ 
     {
         icon: assets.code_icon,
         iconDark: assets.code_icon_dark,
