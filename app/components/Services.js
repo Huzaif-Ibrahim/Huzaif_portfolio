@@ -8,22 +8,26 @@ const Services = ({ light }) => {
         <motion.div id="services"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
             transition={{ duration: 1 }}
             className='w-full px-[12%] py-10 scroll-mt-20'>
             <motion.h4
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className='z-2 font-Ovo text-center text-lg mb-2'>what I offers</motion.h4>
             <motion.h2
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className='z-2 font-Ovo text-center text-5xl'>My services</motion.h2>
             <div className='z-2 flex justify-center my-6'>
                 <motion.p
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.7 }}
                     className='font-Ovo max-w-xl text-center'>I am a fullstack developer from Karnataka, India with hands-on experience building and deploying fullstack projects.</motion.p>
             </div>
@@ -31,6 +35,7 @@ const Services = ({ light }) => {
             <motion.ul
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.9 }}
                 className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8'>
                 {

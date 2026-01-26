@@ -9,22 +9,26 @@ const LatestWork = ({ light }) => {
         <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
             transition={{ duration: 1 }}
             id="work" className='w-full px-[12%] py-10 scroll-mt-20'>
             <motion.h4
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className='font-Ovo text-center text-lg mb-2'>My portfolio</motion.h4>
             <motion.h2
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className='font-Ovo text-center text-5xl'>My latest work</motion.h2>
             <div className='flex justify-center my-6'>
                 <motion.p
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.7 }}
                     className='font-Ovo max-w-xl text-center'>Welcome to my web development portfolio! Explore a collection of projects showcasing
                     my expertise in front-end development.</motion.p>
@@ -33,6 +37,7 @@ const LatestWork = ({ light }) => {
             <motion.ul
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.9 }}
                 className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12'>
                 {
@@ -64,6 +69,7 @@ const LatestWork = ({ light }) => {
                 target='_blank'
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{ duration: 1.1, delay: 0.5 }}
                 className={`group cursor-pointer ${light ? 'hover:bg-gray-300' : 'hover:bg-[#2a004a]/50'} transition-all duration-500 flex items-center justify-center border border-gray-400 rounded-full px-4 py-2`}>
                     Show more <Image alt='' src={assets.right_arrow} className='ml-2 group-hover:ml-6 transition-all duration-500 w-4' />
