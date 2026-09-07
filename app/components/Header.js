@@ -53,7 +53,7 @@ const Header = ({ light }) => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 1.2 }}
-              href='/huzaif_resume.pdf' download className={`cursor-pointer flex items-center gap-2 rounded-full px-3 py-1 lg:px-6 lg:py-3 transition-all duration-700 border border-zinc-400 bg-white text-black`}><p className=''>my resume</p> <Image alt='' src={assets.download_icon} className='w-4' /></motion.a>
+              href='/Huzaif Ibrahim.pdf' download className={`cursor-pointer flex items-center gap-2 rounded-full px-3 py-1 lg:px-6 lg:py-3 transition-all duration-700 border border-zinc-400 bg-white text-black`}><p className=''>my resume</p> <Image alt='' src={assets.download_icon} className='w-4' /></motion.a>
           </div>
         </div>
       </motion.div>
